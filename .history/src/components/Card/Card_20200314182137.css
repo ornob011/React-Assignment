@@ -1,0 +1,55 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .card {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #eeeeee;
+    width: 100%;
+    padding: 16px;
+    margin: 32px auto;
+    border-radius: 8px;
+    text-align: center;
+    transition: all 0.3s linear;
+  }
+  .card:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card img {
+    border-radius: 50%;
+    border: 1px solid teal;
+  }
+  .card h4 {
+    text-transform: capitalize;
+    margin: 8px 0px;
+    letter-spacing: 0.05rem;
+  }
+  .card button {
+    width: 120px;
+    height: 30px;
+    border: 2px solid #008080;
+    border-radius: 7px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.4s;
+  }
+  .card button:hover {
+    background-color: #008080;
+    color: #eeeeee;
+    border: 2px solid #eeeeee;
+  }
+  
+  .disablebtn {
+    background-color: #eeeeee;
+    color: #008080;
+    border: 2px solid #008080;
+  }
+  .personInfo {
+    margin-top: 20px;
+  }
+  

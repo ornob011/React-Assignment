@@ -1,0 +1,63 @@
+  @media screen and (min-width: 500px) {
+    .header {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+    .count,
+    .income {
+      width: 80%;
+      margin: 20px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .header {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .header {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 16px;
+    }
+  }
+  
+  .header {
+    margin: 0px 30px;
+    padding: 10px 20px;
+  }
+  
+  .count,
+  .income {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #eeeeee;
+    width: 100%;
+    padding: 1px;
+  
+    border-radius: 8px;
+    text-align: center;
+  
+    display: flex;
+    justify-content: center;
+    transition: all 0.3s linear;
+
+  }
+  .count:hover,
+  .income:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  .amount,
+  .bc {
+    font-size: 80px;
+    font-weight: 100;
+  }
+  .amount {
+    color: salmon;
+  }
+  .bc {
+    color: teal;
+  }
+  

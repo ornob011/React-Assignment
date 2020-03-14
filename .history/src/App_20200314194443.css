@@ -1,0 +1,9 @@
+h1{
+    margin: auto;
+    width: 70%;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(201, 196, 196);
+    color: darkslategrey;
+    padding: 20px 20px 20px 10px;
+}
